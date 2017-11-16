@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShipController : MonoBehaviour
 {
-    private const float HORIZONTAL_VELOCITY = .08f;
+    private const float HORIZONTAL_VELOCITY = .05f;
 
     [SerializeField] private GameObject bombPrefab;
     [SerializeField] private Transform bombSpawnPoint;

@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 20100339426060332}
   - component: {fileID: 124039966747209030}
   - component: {fileID: 81187720666401828}
+  - component: {fileID: 114598406097187648}
   m_Layer: 0
   m_Name: camera
   m_TagString: MainCamera
@@ -86,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1873538587182264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalPosition: {x: 0, y: -0.334, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4988237225840044}
@@ -249,6 +250,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bombPrefab: {fileID: 1356143788936182, guid: d16989419801bfe49bac52018861aa99, type: 2}
   bombSpawnPoint: {fileID: 4487165968341340}
+--- !u!114 &114598406097187648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106926638988422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: bca87f426cb696d429015283656ec155, type: 2}
 --- !u!124 &124039966747209030
 Behaviour:
   m_ObjectHideFlags: 1
@@ -291,7 +304,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c439ffb6fc10cfa4f8367040f575ed65, type: 3}
-  m_Color: {r: 0.653, g: 0.653, b: 0.653, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
